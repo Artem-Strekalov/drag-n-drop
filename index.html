@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Drag & Drop</title>
+</head>
+
+<body>
+  <div>
+    <div class="row">
+      <div class="col-header start">Task</div>
+      <div class="col-header progress">In progress</div>
+      <div class="col-header done">Done</div>
+    </div>
+
+    <div class="row">
+      <div class="placeholder col-start">
+        <div class="item" draggable="true">Перетащи меня</div>
+      </div>
+      <div class="placeholder col-progress"></div>
+      <div class="placeholder col-done"></div>
+    </div>
+
+  </div>
+  <script src="./app.js"></script>
+</body>
+
+</html>
